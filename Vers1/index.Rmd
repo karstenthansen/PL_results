@@ -1,0 +1,91 @@
+---
+title       : Aging and Private Label Use
+subtitle    : Preliminary Results
+author      : Richards, Ramona, Gr8Dane
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+--- &basic1
+
+
+```{r set.global.options, echo=FALSE, cache=FALSE, message=FALSE}
+knitr::opts_chunk$set(comment = NA, echo=F, results = 'asis', tidy = F, message = F)
+```
+
+
+```{r external.code}
+chunk.dir <- 'D:\\research\\pl\\pl\\chunks\\'
+read_chunk(paste(chunk.dir,"chunks_B.R",sep=""))
+read_chunk(paste(chunk.dir,"chunks_presentation.R",sep=""))
+```
+
+```{r load.libraries.pres}
+```
+
+```{r functions.for.presentation}
+```
+
+```{r load.mcmc.run}
+```
+
+```{r read.effects}
+```
+
+
+### Model: 1st Stage
+
+- We explain variation in PL share across (household,category) combinations.
+- The model is 
+$$
+{\rm E}[s|X] = {\rm E}[s|X, s > 0] \times {\rm Pr}(s > 0|X),
+$$
+where X is household demographics and s is PL share.
+- The first term on the right captures intensity of PL use for PL users, while the second term is the probability of being a PL user given X.
+- The first expectation is computed as the expected value of 
+$$
+s \equiv \frac{\exp(y)}{1+\exp(y)},~~y=X'\beta + \varepsilon
+$$
+- The probability is modelled as a logit
+
+--- &basic1
+
+### Model: 2nd Stage
+
+- We let $\beta$ and ${\rm Var}[\varepsilon]$ vary by category.
+- We model variation in $\beta$ as 
+$$
+\beta_{cj} \sim {\rm N}(\pi_j + \pi^m_j D_c^m, \tau_j),\qquad j=1,\dots,K,
+$$
+where $D_c^m=1$ if category c is a medicine category.
+
+--- &basic1
+
+### Model: Demographics 
+
+The following results are based on including the following demographics: 
+
+- Number of purchases 
+- Years in panel
+- Income
+- Education
+- Household Structure (Male, Female, Joint)
+- Age x Household Structure 
+
+--- &basic1
+
+### Data: Sample Size
+
+```{r make.ggpl.sample.size1}
+```
+
+<div id ="chart1"></div>
+```{r comment=NA,echo = F, results='asis'}
+#h1$print('chart1', include_assets=TRUE, cdn = T)
+h1$print('chart1',include_assets=TRUE)
+```
+
+
+
