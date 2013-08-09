@@ -84,7 +84,7 @@ The following results are based on including the following demographics:
 <div id ="chart1"></div>
 ```{r comment=NA,echo = F, results='asis'}
 #h1$print('chart1', include_assets=TRUE, cdn = T)
-h1$print('chart1',include_assets=TRUE)
+h1$print('chart1',include_assets=TRUE, cdn = T)
 ```
 
 
