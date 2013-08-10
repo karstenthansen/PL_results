@@ -98,490 +98,960 @@ The following results are based on including the following demographics:
 },
 "yAxis": {
  "title": {
- "text": "Number of Observations" 
+ "text": null 
 } 
 },
 "chart": {
- "type": "bar",
+ "type": "column",
 "height":    500,
-"width":    900,
+"width":    950,
 "renderTo": "chart1" 
 },
 "xAxis": {
- "title": {
- "text": "Category" 
-} 
+ "categories": [ "PETROLEUM JELLY", "MEN'S TOILETRIES", "PAIN REMEDIES - ARTHRITIS", "ICE", "SLEEPING AIDS", "FRAGRANCES - WOMEN", "DIARRHEA REMEDIES", "FEMININE HYGIENE", "SINUS REMEDIES", "PHOTOGRAPHIC SUPPLIES", "ANTI-GAS PRODUCTS", "CHARCOAL, LOGS, ACCESSORIES", "MEDICATED PRODUCTS", "DIET AIDS", "EYE DROPS & LOTIONS", "ANALGESIC & CHEST RUBS", "COUGH SYRUPS & TABLETS", "ADULT-INCONTINENCE", "PUDDING, DESSERTS-DAIRY", "DISPOSABLE DIAPERS", "BABY NEEDS", "BABY FOOD", "JUICES, DRINKS-FROZEN", "FLORAL, GARDENING", "HARDWARE, TOOLS", "INSECTICDS/PESTICDS/RODENTICDS", "TABLE SYRUPS, MOLASSES", "LAXATIVES", "AUTOMOTIVE", "FLOUR", "GROOMING AIDS", "MINERALS", "GLASSWARE, TABLEWARE", "VITAMINS-MULTIPLE", "SNACKS, SPREADS, DIPS-DAIRY", "ANTACIDS", "FRESH MEAT", "SHAVING NEEDS", "VEGETABLES AND GRAINS - DRIED", "HOUSEWARES, APPLIANCES", "SANITARY PROTECTION", "SKIN CARE PREPARATIONS", "DESSERTS/FRUITS/TOPPINGS-FROZEN", "COSMETICS", "FRUIT - DRIED", "BREAKFAST FOODS-FROZEN", "KITCHEN GADGETS", "FRESHENERS AND DEODORIZERS", "LIGHT BULBS, ELECTRIC GOODS", "BAKED GOODS-FROZEN", "FIRST AID", "COLD REMEDIES - ADULT", "DOUGH PRODUCTS", "SEAFOOD - CANNED", "UNPREP MEAT/POULTRY/SEAFOOD-FRZN", "PET CARE", "COUGH AND COLD REMEDIES", "BATTERIES AND FLASHLIGHTS", "SHORTENING, OIL", "TEA", "PACKAGED MILK AND MODIFIERS", "COFFEE", "SUGAR, SWEETENERS", "VITAMINS", "PAIN REMEDIES - HEADACHE", "PICKLES, OLIVES, AND RELISH", "NUTS", "PERSONAL SOAP AND BATH ADDITIV", "BREAKFAST FOOD", "FRUIT - CANNED", "JAMS, JELLIES, SPREADS", "HOUSEHOLD SUPPLIES", "PIZZA/SNACKS/HORS DOEURVES-FRZN", "BAKING MIXES", "PASTA", "LAUNDRY SUPPLIES", "HOUSEHOLD CLEANERS", "SPICES, SEASONING, EXTRACTS", "DESSERTS, GELATINS, SYRUP", "COT CHEESE, SOUR CREAM, TOPPINGS", "HAIR CARE", "PET FOOD", "BAKING SUPPLIES", "YOGURT", "SOFT DRINKS-NON-CARBONATED", "ORAL HYGIENE", "WRAPPING MATERIALS AND BAGS", "BUTTER AND MARGARINE", "STATIONERY, SCHOOL SUPPLIES", "SALAD DRESSINGS, MAYO, TOPPINGS", "DETERGENTS", "CRACKERS", "COOKIES", "VEGETABLES-FROZEN", "EGGS", "MEDICATIONS/REMEDIES/HEALTH AI", "PREPARED FOOD-READY-TO-SERVE", "ICE CREAM, NOVELTIES", "PREPARED FOOD-DRY MIXES", "DRESSINGS/SALADS/PREP FOODS-DELI", "PREPARED FOODS-FROZEN", "SOUP", "VEGETABLES - CANNED", "CEREAL", "JUICE, DRINKS - CANNED, BOTTLED", "CARBONATED BEVERAGES", "PACKAGED MEATS-DELI", "CANDY", "FRESH PRODUCE", "CONDIMENTS, GRAVIES, AND SAUCES", "CHEESE", "PAPER PRODUCTS", "MILK", "SNACKS", "BREAD AND BAKED GOODS" ],
+"labels": false 
 },
 "series": [
  {
- "data": [ 1252, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "data": [
+ {
+ "y": 1252,
 "name": "PETROLEUM JELLY" 
 },
 {
- "data": [ null, 1268, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 1268,
 "name": "MEN'S TOILETRIES" 
 },
 {
- "data": [ null, null, 1799, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 1799,
 "name": "PAIN REMEDIES - ARTHRITIS" 
 },
 {
- "data": [ null, null, null, 1995, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 1995,
 "name": "ICE" 
 },
 {
- "data": [ null, null, null, null, 2023, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2023,
 "name": "SLEEPING AIDS" 
 },
 {
- "data": [ null, null, null, null, null, 2035, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2035,
 "name": "FRAGRANCES - WOMEN" 
 },
 {
- "data": [ null, null, null, null, null, null, 2147, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2147,
 "name": "DIARRHEA REMEDIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, 2507, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2507,
 "name": "FEMININE HYGIENE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, 2515, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2515,
 "name": "SINUS REMEDIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, 2719, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2719,
 "name": "PHOTOGRAPHIC SUPPLIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, 2759, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2759,
 "name": "ANTI-GAS PRODUCTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, 2964, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 2964,
 "name": "CHARCOAL, LOGS, ACCESSORIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, 3581, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 3581,
 "name": "MEDICATED PRODUCTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 4670, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 4670,
 "name": "DIET AIDS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5226, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 5226,
 "name": "EYE DROPS & LOTIONS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5276, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 5276,
 "name": "ANALGESIC & CHEST RUBS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 7195, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 7195,
 "name": "COUGH SYRUPS & TABLETS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 7279, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 7279,
 "name": "ADULT-INCONTINENCE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 7725, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 7725,
 "name": "PUDDING, DESSERTS-DAIRY" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8366, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 8366,
 "name": "DISPOSABLE DIAPERS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8828, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 8828,
 "name": "BABY NEEDS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9908, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 9908,
 "name": "BABY FOOD" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 11316, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 11316,
 "name": "JUICES, DRINKS-FROZEN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 11961, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 11961,
 "name": "FLORAL, GARDENING" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 12486, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 12486,
 "name": "HARDWARE, TOOLS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 13284, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 13284,
 "name": "INSECTICDS/PESTICDS/RODENTICDS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 14451, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 14451,
 "name": "TABLE SYRUPS, MOLASSES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 14740, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 14740,
 "name": "LAXATIVES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 15727, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 15727,
 "name": "AUTOMOTIVE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 16098, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 16098,
 "name": "FLOUR" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 16109, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 16109,
 "name": "GROOMING AIDS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 16971, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 16971,
 "name": "MINERALS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 17470, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 17470,
 "name": "GLASSWARE, TABLEWARE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 17480, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 17480,
 "name": "VITAMINS-MULTIPLE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 20609, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 20609,
 "name": "SNACKS, SPREADS, DIPS-DAIRY" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 21401, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 21401,
 "name": "ANTACIDS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 21984, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 21984,
 "name": "FRESH MEAT" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 22460, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 22460,
 "name": "SHAVING NEEDS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 22461, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 22461,
 "name": "VEGETABLES AND GRAINS - DRIED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 23111, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 23111,
 "name": "HOUSEWARES, APPLIANCES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 23366, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 23366,
 "name": "SANITARY PROTECTION" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 26524, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 26524,
 "name": "SKIN CARE PREPARATIONS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 28313, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 28313,
 "name": "DESSERTS/FRUITS/TOPPINGS-FROZEN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 29093, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 29093,
 "name": "COSMETICS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 32184, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 32184,
 "name": "FRUIT - DRIED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 32263, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 32263,
 "name": "BREAKFAST FOODS-FROZEN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 32581, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 32581,
 "name": "KITCHEN GADGETS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 33759, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 33759,
 "name": "FRESHENERS AND DEODORIZERS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 34504, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 34504,
 "name": "LIGHT BULBS, ELECTRIC GOODS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 35053, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 35053,
 "name": "BAKED GOODS-FROZEN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 35222, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 35222,
 "name": "FIRST AID" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 36203, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 36203,
 "name": "COLD REMEDIES - ADULT" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 37460, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 37460,
 "name": "DOUGH PRODUCTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 38957, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 38957,
 "name": "SEAFOOD - CANNED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 39316, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 39316,
 "name": "UNPREP MEAT/POULTRY/SEAFOOD-FRZN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 39922, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 39922,
 "name": "PET CARE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 40639, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 40639,
 "name": "COUGH AND COLD REMEDIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 40972, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 40972,
 "name": "BATTERIES AND FLASHLIGHTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 41535, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 41535,
 "name": "SHORTENING, OIL" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 42509, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 42509,
 "name": "TEA" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 44323, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 44323,
 "name": "PACKAGED MILK AND MODIFIERS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 45209, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 45209,
 "name": "COFFEE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 45672, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 45672,
 "name": "SUGAR, SWEETENERS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 45890, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 45890,
 "name": "VITAMINS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 46343, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 46343,
 "name": "PAIN REMEDIES - HEADACHE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 47779, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 47779,
 "name": "PICKLES, OLIVES, AND RELISH" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 49607, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 49607,
 "name": "NUTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 50568, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 50568,
 "name": "PERSONAL SOAP AND BATH ADDITIV" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 51360, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 51360,
 "name": "BREAKFAST FOOD" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 51441, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 51441,
 "name": "FRUIT - CANNED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 51668, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 51668,
 "name": "JAMS, JELLIES, SPREADS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 51880, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 51880,
 "name": "HOUSEHOLD SUPPLIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 52243, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 52243,
 "name": "PIZZA/SNACKS/HORS DOEURVES-FRZN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 53229, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 53229,
 "name": "BAKING MIXES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 55943, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 55943,
 "name": "PASTA" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 56616, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 56616,
 "name": "LAUNDRY SUPPLIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 56632, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 56632,
 "name": "HOUSEHOLD CLEANERS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 56769, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 56769,
 "name": "SPICES, SEASONING, EXTRACTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 57037, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 57037,
 "name": "DESSERTS, GELATINS, SYRUP" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 57182, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 57182,
 "name": "COT CHEESE, SOUR CREAM, TOPPINGS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 59353, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 59353,
 "name": "HAIR CARE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 59420, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 59420,
 "name": "PET FOOD" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 60302, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 60302,
 "name": "BAKING SUPPLIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 61131, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 61131,
 "name": "YOGURT" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 61812, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 61812,
 "name": "SOFT DRINKS-NON-CARBONATED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 63322, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 63322,
 "name": "ORAL HYGIENE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 66136, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 66136,
 "name": "WRAPPING MATERIALS AND BAGS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 66877, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 66877,
 "name": "BUTTER AND MARGARINE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 67664, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 67664,
 "name": "STATIONERY, SCHOOL SUPPLIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 67779, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 67779,
 "name": "SALAD DRESSINGS, MAYO, TOPPINGS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 69099, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 69099,
 "name": "DETERGENTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 70960, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 70960,
 "name": "CRACKERS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 71332, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 71332,
 "name": "COOKIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 71662, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 71662,
 "name": "VEGETABLES-FROZEN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 72286, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 72286,
 "name": "EGGS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 72823, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 72823,
 "name": "MEDICATIONS/REMEDIES/HEALTH AI" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 72938, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 72938,
 "name": "PREPARED FOOD-READY-TO-SERVE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 73023, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 73023,
 "name": "ICE CREAM, NOVELTIES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 74612, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 74612,
 "name": "PREPARED FOOD-DRY MIXES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 80156, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 80156,
 "name": "DRESSINGS/SALADS/PREP FOODS-DELI" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 80364, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 80364,
 "name": "PREPARED FOODS-FROZEN" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 80630, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 80630,
 "name": "SOUP" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 81527, null, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 81527,
 "name": "VEGETABLES - CANNED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 83940, null, null, null, null, null, null, null, null, null, null, null ],
+ "y": 83940,
 "name": "CEREAL" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 84865, null, null, null, null, null, null, null, null, null, null ],
+ "y": 84865,
 "name": "JUICE, DRINKS - CANNED, BOTTLED" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 85424, null, null, null, null, null, null, null, null, null ],
+ "y": 85424,
 "name": "CARBONATED BEVERAGES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 87708, null, null, null, null, null, null, null, null ],
+ "y": 87708,
 "name": "PACKAGED MEATS-DELI" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 87964, null, null, null, null, null, null, null ],
+ "y": 87964,
 "name": "CANDY" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 88350, null, null, null, null, null, null ],
+ "y": 88350,
 "name": "FRESH PRODUCE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 88684, null, null, null, null, null ],
+ "y": 88684,
 "name": "CONDIMENTS, GRAVIES, AND SAUCES" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 89545, null, null, null, null ],
+ "y": 89545,
 "name": "CHEESE" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 91005, null, null, null ],
+ "y": 91005,
 "name": "PAPER PRODUCTS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 91822, null, null ],
+ "y": 91822,
 "name": "MILK" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 93663, null ],
+ "y": 93663,
 "name": "SNACKS" 
 },
 {
- "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 96107 ],
+ "y": 96107,
 "name": "BREAD AND BAKED GOODS" 
 } 
 ],
+"type": "column",
+"name": "Number of Users" 
+},
+{
+ "data": [
+ {
+ "y": 202,
+"name": "PETROLEUM JELLY" 
+},
+{
+ "y": 847,
+"name": "MEN'S TOILETRIES" 
+},
+{
+ "y": 859,
+"name": "PAIN REMEDIES - ARTHRITIS" 
+},
+{
+ "y": 817,
+"name": "ICE" 
+},
+{
+ "y": 361,
+"name": "SLEEPING AIDS" 
+},
+{
+ "y": 866,
+"name": "FRAGRANCES - WOMEN" 
+},
+{
+ "y": 588,
+"name": "DIARRHEA REMEDIES" 
+},
+{
+ "y": 883,
+"name": "FEMININE HYGIENE" 
+},
+{
+ "y": 563,
+"name": "SINUS REMEDIES" 
+},
+{
+ "y": 1431,
+"name": "PHOTOGRAPHIC SUPPLIES" 
+},
+{
+ "y": 1113,
+"name": "ANTI-GAS PRODUCTS" 
+},
+{
+ "y": 406,
+"name": "CHARCOAL, LOGS, ACCESSORIES" 
+},
+{
+ "y": 1041,
+"name": "MEDICATED PRODUCTS" 
+},
+{
+ "y": 3417,
+"name": "DIET AIDS" 
+},
+{
+ "y": 3276,
+"name": "EYE DROPS & LOTIONS" 
+},
+{
+ "y": 2415,
+"name": "ANALGESIC & CHEST RUBS" 
+},
+{
+ "y": 1921,
+"name": "COUGH SYRUPS & TABLETS" 
+},
+{
+ "y": 2106,
+"name": "ADULT-INCONTINENCE" 
+},
+{
+ "y": 5224,
+"name": "PUDDING, DESSERTS-DAIRY" 
+},
+{
+ "y": 2696,
+"name": "DISPOSABLE DIAPERS" 
+},
+{
+ "y": 1575,
+"name": "BABY NEEDS" 
+},
+{
+ "y": 6751,
+"name": "BABY FOOD" 
+},
+{
+ "y": 1519,
+"name": "JUICES, DRINKS-FROZEN" 
+},
+{
+ "y": 4654,
+"name": "FLORAL, GARDENING" 
+},
+{
+ "y": 2714,
+"name": "HARDWARE, TOOLS" 
+},
+{
+ "y": 7481,
+"name": "INSECTICDS/PESTICDS/RODENTICDS" 
+},
+{
+ "y": 3194,
+"name": "TABLE SYRUPS, MOLASSES" 
+},
+{
+ "y": 2237,
+"name": "LAXATIVES" 
+},
+{
+ "y": 4153,
+"name": "AUTOMOTIVE" 
+},
+{
+ "y": 3627,
+"name": "FLOUR" 
+},
+{
+ "y": 3096,
+"name": "GROOMING AIDS" 
+},
+{
+ "y": 2410,
+"name": "MINERALS" 
+},
+{
+ "y": 2576,
+"name": "GLASSWARE, TABLEWARE" 
+},
+{
+ "y": 4328,
+"name": "VITAMINS-MULTIPLE" 
+},
+{
+ "y": 5443,
+"name": "SNACKS, SPREADS, DIPS-DAIRY" 
+},
+{
+ "y": 6261,
+"name": "ANTACIDS" 
+},
+{
+ "y": 12460,
+"name": "FRESH MEAT" 
+},
+{
+ "y": 12853,
+"name": "SHAVING NEEDS" 
+},
+{
+ "y": 2130,
+"name": "VEGETABLES AND GRAINS - DRIED" 
+},
+{
+ "y": 8983,
+"name": "HOUSEWARES, APPLIANCES" 
+},
+{
+ "y": 9055,
+"name": "SANITARY PROTECTION" 
+},
+{
+ "y": 10042,
+"name": "SKIN CARE PREPARATIONS" 
+},
+{
+ "y": 3301,
+"name": "DESSERTS/FRUITS/TOPPINGS-FROZEN" 
+},
+{
+ "y": 12622,
+"name": "COSMETICS" 
+},
+{
+ "y": 5928,
+"name": "FRUIT - DRIED" 
+},
+{
+ "y": 8863,
+"name": "BREAKFAST FOODS-FROZEN" 
+},
+{
+ "y": 3538,
+"name": "KITCHEN GADGETS" 
+},
+{
+ "y": 20803,
+"name": "FRESHENERS AND DEODORIZERS" 
+},
+{
+ "y": 5925,
+"name": "LIGHT BULBS, ELECTRIC GOODS" 
+},
+{
+ "y": 9003,
+"name": "BAKED GOODS-FROZEN" 
+},
+{
+ "y": 592,
+"name": "FIRST AID" 
+},
+{
+ "y": 4964,
+"name": "COLD REMEDIES - ADULT" 
+},
+{
+ "y": 7231,
+"name": "DOUGH PRODUCTS" 
+},
+{
+ "y": 13206,
+"name": "SEAFOOD - CANNED" 
+},
+{
+ "y": 2658,
+"name": "UNPREP MEAT/POULTRY/SEAFOOD-FRZN" 
+},
+{
+ "y": 6608,
+"name": "PET CARE" 
+},
+{
+ "y": 3112,
+"name": "COUGH AND COLD REMEDIES" 
+},
+{
+ "y": 11292,
+"name": "BATTERIES AND FLASHLIGHTS" 
+},
+{
+ "y": 3527,
+"name": "SHORTENING, OIL" 
+},
+{
+ "y": 17638,
+"name": "TEA" 
+},
+{
+ "y": 7561,
+"name": "PACKAGED MILK AND MODIFIERS" 
+},
+{
+ "y": 16117,
+"name": "COFFEE" 
+},
+{
+ "y": 2444,
+"name": "SUGAR, SWEETENERS" 
+},
+{
+ "y": 2485,
+"name": "VITAMINS" 
+},
+{
+ "y": 6860,
+"name": "PAIN REMEDIES - HEADACHE" 
+},
+{
+ "y": 2708,
+"name": "PICKLES, OLIVES, AND RELISH" 
+},
+{
+ "y": 3979,
+"name": "NUTS" 
+},
+{
+ "y": 12372,
+"name": "PERSONAL SOAP AND BATH ADDITIV" 
+},
+{
+ "y": 20752,
+"name": "BREAKFAST FOOD" 
+},
+{
+ "y": 2453,
+"name": "FRUIT - CANNED" 
+},
+{
+ "y": 5718,
+"name": "JAMS, JELLIES, SPREADS" 
+},
+{
+ "y": 8467,
+"name": "HOUSEHOLD SUPPLIES" 
+},
+{
+ "y": 20747,
+"name": "PIZZA/SNACKS/HORS DOEURVES-FRZN" 
+},
+{
+ "y": 23833,
+"name": "BAKING MIXES" 
+},
+{
+ "y": 6027,
+"name": "PASTA" 
+},
+{
+ "y": 7022,
+"name": "LAUNDRY SUPPLIES" 
+},
+{
+ "y": 19267,
+"name": "HOUSEHOLD CLEANERS" 
+},
+{
+ "y": 5647,
+"name": "SPICES, SEASONING, EXTRACTS" 
+},
+{
+ "y": 12002,
+"name": "DESSERTS, GELATINS, SYRUP" 
+},
+{
+ "y": 3076,
+"name": "COT CHEESE, SOUR CREAM, TOPPINGS" 
+},
+{
+ "y": 35375,
+"name": "HAIR CARE" 
+},
+{
+ "y": 14795,
+"name": "PET FOOD" 
+},
+{
+ "y": 7390,
+"name": "BAKING SUPPLIES" 
+},
+{
+ "y": 16516,
+"name": "YOGURT" 
+},
+{
+ "y": 8710,
+"name": "SOFT DRINKS-NON-CARBONATED" 
+},
+{
+ "y": 18744,
+"name": "ORAL HYGIENE" 
+},
+{
+ "y": 2291,
+"name": "WRAPPING MATERIALS AND BAGS" 
+},
+{
+ "y": 11334,
+"name": "BUTTER AND MARGARINE" 
+},
+{
+ "y": 5830,
+"name": "STATIONERY, SCHOOL SUPPLIES" 
+},
+{
+ "y": 18208,
+"name": "SALAD DRESSINGS, MAYO, TOPPINGS" 
+},
+{
+ "y": 33150,
+"name": "DETERGENTS" 
+},
+{
+ "y": 15978,
+"name": "CRACKERS" 
+},
+{
+ "y": 9357,
+"name": "COOKIES" 
+},
+{
+ "y": 3671,
+"name": "VEGETABLES-FROZEN" 
+},
+{
+ "y": 3622,
+"name": "EGGS" 
+},
+{
+ "y": 3011,
+"name": "MEDICATIONS/REMEDIES/HEALTH AI" 
+},
+{
+ "y": 20891,
+"name": "PREPARED FOOD-READY-TO-SERVE" 
+},
+{
+ "y": 9920,
+"name": "ICE CREAM, NOVELTIES" 
+},
+{
+ "y": 18069,
+"name": "PREPARED FOOD-DRY MIXES" 
+},
+{
+ "y": 13929,
+"name": "DRESSINGS/SALADS/PREP FOODS-DELI" 
+},
+{
+ "y": 23294,
+"name": "PREPARED FOODS-FROZEN" 
+},
+{
+ "y": 16617,
+"name": "SOUP" 
+},
+{
+ "y": 3390,
+"name": "VEGETABLES - CANNED" 
+},
+{
+ "y": 15873,
+"name": "CEREAL" 
+},
+{
+ "y": 9963,
+"name": "JUICE, DRINKS - CANNED, BOTTLED" 
+},
+{
+ "y": 22889,
+"name": "CARBONATED BEVERAGES" 
+},
+{
+ "y": 12125,
+"name": "PACKAGED MEATS-DELI" 
+},
+{
+ "y": 18369,
+"name": "CANDY" 
+},
+{
+ "y": 15411,
+"name": "FRESH PRODUCE" 
+},
+{
+ "y": 6433,
+"name": "CONDIMENTS, GRAVIES, AND SAUCES" 
+},
+{
+ "y": 2507,
+"name": "CHEESE" 
+},
+{
+ "y": 2635,
+"name": "PAPER PRODUCTS" 
+},
+{
+ "y": 2783,
+"name": "MILK" 
+},
+{
+ "y": 13022,
+"name": "SNACKS" 
+},
+{
+ "y": 2622,
+"name": "BREAD AND BAKED GOODS" 
+} 
+],
+"type": "column",
+"name": "Number of Users with PL=0" 
+} 
+],
 "tooltip": {
- "pointFormat": "{series.name}",
+ "pointFormat": "{point.name}",
 "headerFormat": "" 
 },
 "legend": {
- "enabled": false 
+ "enabled": true 
 },
-"colors": [ "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(119, 152, 191, .6)", "rgba(119, 152, 191, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(119, 152, 191, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)", "rgba(223, 83, 83, .6)" ],
 "subtitle": {
  "text": "115 Categories" 
 },
