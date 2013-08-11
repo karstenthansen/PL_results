@@ -34,6 +34,8 @@ read_chunk(paste(chunk.dir,"chunks_presentation.R",sep=""))
 ```{r read.effects}
 ```
 
+```{r make.cat.info}
+```
 
 ### Model: 1st Stage
 
@@ -85,6 +87,18 @@ The following results are based on including the following demographics:
 ```{r}
 pl1$print('chart1',include_assets=TRUE, cdn = T)
 ```
+
+--- &basic1
+### Data: Private Label Share
+
+```{r make.ia.cat.pl.share}
+```
+
+<div id ="chart2"></div>
+```{r}
+pl.plot$print('chart2',include_assets=TRUE, cdn = T)
+```
+
 
 
 
