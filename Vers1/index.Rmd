@@ -37,6 +37,9 @@ read_chunk(paste(chunk.dir,"chunks_presentation.R",sep=""))
 ```{r make.cat.info}
 ```
 
+```{r read.pi}
+```
+
 ### Model: 1st Stage
 
 - We explain variation in PL share across (household,category) combinations.
@@ -99,6 +102,18 @@ pl1$print('chart1',include_assets=TRUE, cdn = T)
 pl.plot$print('chart2',include_assets=TRUE, cdn = T)
 ```
 
+--- &basic1
+### Estimation Results: Mean Parameter Estimates (115 Categories)
+
+```{r plot.mean.parameters.1, fig.keep='none', cache=F, fig.align='center'}
+```
+
+
+--- &basic1
+### Estimation Results: Mean Parameter Estimates: Age (115 Categories)
+
+```{r plot.mean.parameters.2, fig.keep='none', cache=F, fig.align='center'}
+```
 
 
 
