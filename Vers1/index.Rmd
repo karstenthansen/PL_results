@@ -160,5 +160,11 @@ inc.category.effects$print('chart3',include_assets=TRUE, cdn = T)
 ```{r plot.average.marginal.effects.1.linear, fig.keep='none', cache=F, fig.align='center'}
 ```
 
+--- &basic1
+### Summary
+
+- findings
+
+
 
 
