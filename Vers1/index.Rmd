@@ -147,6 +147,58 @@ where $x_0$ is the benchmark and all other covariates are held fixed
 inc.category.effects$print('chart3',include_assets=TRUE, cdn = T)
 ```
 
+
+--- &basic1
+### Data: Marginal Education Effects by Category
+
+```{r plot.interactive.category.edu.effects}
+```
+
+<div id ="chart4"></div>
+```{r}
+edu.category.effects$print('chart4',include_assets=TRUE, cdn = T)
+```
+
+
+
+--- &basic1
+### Data: Marginal Age Effects by Category, Joint HHs
+
+
+```{r plot.interactive.category.age.effects}
+```
+
+<div id ="chart5"></div>
+```{r}
+joint.age.category.effects$print('chart5',include_assets=TRUE, cdn = T)
+```
+
+
+--- &basic1
+### Data: Marginal Age Effects by Category, Male HHs
+
+
+```{r plot.interactive.category.age.effects}
+```
+
+<div id ="chart6"></div>
+```{r}
+male.age.category.effects$print('chart6',include_assets=TRUE, cdn = T)
+```
+
+
+--- &basic1
+### Data: Marginal Age Effects by Category, Female HHs
+
+
+```{r plot.interactive.category.age.effects}
+```
+
+<div id ="chart7"></div>
+```{r}
+female.age.category.effects$print('chart7',include_assets=TRUE, cdn = T)
+```
+
 --- &basic1
 ### Robustness of Results
 
@@ -161,10 +213,10 @@ inc.category.effects$print('chart3',include_assets=TRUE, cdn = T)
 ```
 
 --- &basic1
-### Summary
+### Summary of Findings
 
-- findings
-
-
+- Higher income leads to lower PL use. Effect is bigger for Medicine categories: On average for Medicine categories PL share is almost 15 percentage points lower for high income households than for low income households. The effect size is about half of this for non-Medicine. 
+- Higher education leads to higher PL use for Medicine categories. For non-Medicine categories the average education effect is zero.
+- On average across categories, PL use is constant with age for non-Medicine categories but declining with age for Medicine categories. This is true for both Joint, Female and Male households. 
 
 
