@@ -146,3 +146,19 @@ where $x_0$ is the benchmark and all other covariates are held fixed
 ```{r}
 inc.category.effects$print('chart3',include_assets=TRUE, cdn = T)
 ```
+
+--- &basic1
+### Robustness of Results
+
+- To show robustness of results we can fit a simple linear model as an alternative specification
+- Dependent variable = PL share using both zero and non-zero observations 
+- Indepdent variables: Same as before 
+
+--- &basic1
+### Robustness: Average Marginal Effects - Linear Model
+
+```{r plot.average.marginal.effects.1.linear, fig.keep='none', cache=F, fig.align='center'}
+```
+
+
+
