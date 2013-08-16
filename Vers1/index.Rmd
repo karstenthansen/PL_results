@@ -40,6 +40,9 @@ read_chunk(paste(chunk.dir,"chunks_presentation.R",sep=""))
 ```{r read.pi}
 ```
 
+```{r read.linear.effects}
+```
+
 ### Model: 1st Stage
 
 - We explain variation in PL share across (household,category) combinations.
@@ -103,17 +106,43 @@ pl.plot$print('chart2',include_assets=TRUE, cdn = T)
 ```
 
 --- &basic1
-### Estimation Results: Mean Parameter Estimates (115 Categories)
+### Mean Parameter Estimates: Income, Education and Household Structure 
 
 ```{r plot.mean.parameters.1, fig.keep='none', cache=F, fig.align='center'}
 ```
 
 
 --- &basic1
-### Estimation Results: Mean Parameter Estimates: Age (115 Categories)
+### Estimation Results: Age 
 
 ```{r plot.mean.parameters.2, fig.keep='none', cache=F, fig.align='center'}
 ```
 
+--- &basic1
+### Marginal Effects
+
+- We can compute marginal effects implied by the model 
+- Specifically, we can compute 
+$$
+\Delta(x_j) \equiv {\rm E}[s|X=x_j] -{\rm E}[s|X=x_0]  
+$$
+where $x_0$ is the benchmark and all other covariates are held fixed
+- We get compute marginal effects for each category and averages marginal effects across category groups.
 
 
+--- &basic1
+### Average Marginal Effects
+
+```{r plot.average.marginal.effects.1, fig.keep='none', cache=F, fig.align='center'}
+```
+
+--- &basic1
+### Data: Marginal Income Effects by Category
+
+```{r plot.interactive.category.income.effects}
+```
+
+<div id ="chart3"></div>
+```{r}
+inc.category.effects$print('chart3',include_assets=TRUE, cdn = T)
+```
